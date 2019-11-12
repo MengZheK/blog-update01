@@ -541,6 +541,19 @@ img::-moz-selection {
     background: url(http://api.dujin.org/bing/1366.php) top left no-repeat ;
     background-size: cover; }
 
+    /* 背景图片遮罩*/
+   .panel-cover:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: yellow;
+    opacity: 0.2;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+	}
+
   .panel-cover--collapsed {
     width: 22%;
     max-width: 320px; }

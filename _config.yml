@@ -10,9 +10,9 @@ url: "https://robotkang.cc"
 
 # Comment
 comment:
-    provider: duoshuo
-    duoshuo:
-     short_name: robotkang
+    provider: 
+    
+    short_name: robotkang
 
 # Social
 social:
