@@ -547,7 +547,7 @@ img::-moz-selection {
     top: 0;
     left: 0;
     content: "";
-    background-color: yellow;
+    background-color: #F0F0F0;
     opacity: 0.2;
     z-index: 1;
     width: 100%;
